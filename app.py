@@ -37,7 +37,7 @@ def download_video():
         video = url.streams.get_by_itag(itag)
         video.stream_to_buffer(buffer)
         buffer.seek(0)
-        return send_file(buffer, as_attachment=True, download_name=f"Yt-Down | {url.title}.mp4", mimetype="video/mp4")
+        return send_file(buffer, as_attachment=True, download_name=f"Yt-Down | video.mp4", mimetype="video/mp4")
     return redirect(url_for('main'))
 
 
