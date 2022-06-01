@@ -1,0 +1,104 @@
+.title {
+    text-align: center;
+    margin-top: 3pc;
+}
+
+.title h1 {
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 670px) {
+    .title h1 {
+        font-size: 25px;
+    }
+}
+
+.checkform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ddd;
+    width: 60%;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.checkform form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: all 0.5s;
+}
+
+@media screen and (max-width: 840px) {
+    .checkform form {
+        flex-direction: column;
+    }
+}
+
+.checkform form input {
+    width: 75%;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #1b1b1b;
+    padding-left: 10px;
+    background: #0d111724;
+    color: #1b1b1b;
+    font-size: 21px;
+    letter-spacing: 1px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 500px) {
+    .checkform form input {
+        font-size: 18px;
+    }
+}
+
+.checkform form input:hover {
+    border-color: rgb(121, 121, 121);
+}
+
+.checkform form input:focus {
+    border-color: transparent;
+}
+
+.checkform form button {
+    width: 5pc;
+    height: 3pc;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #1b1b1b;
+    background: #bfc0c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.checkform form button:hover {
+    border-color: rgb(121, 121, 121);
+}
+
+.checkform form button svg {
+    fill: #ca1818;
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+}
+
+.checkform form button:hover svg{
+    fill: rgb(224, 9, 9);
+}

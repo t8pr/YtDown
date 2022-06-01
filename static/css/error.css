@@ -1,0 +1,51 @@
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    background-color: #ddd;
+    height: 200px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box h1 {
+    margin-bottom: 1pc;
+    font-weight: initial;
+}
+
+.box hr {
+    height: 6px;
+    width: 300px;
+    background: #ca1818;
+    border: none;
+    border-radius: 20pc;
+    margin-bottom: 1pc;
+}
+
+.box a {
+    background-color: #fff;
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+    color: #1b1b1b;
+    border: 2px solid #3a3a3a;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.box a svg {
+    width: 30px;
+    height: 30px;
+    fill: #1b1b1b
+}

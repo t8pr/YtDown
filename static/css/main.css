@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+}
+
+a {
+    text-decoration: none;
+}
